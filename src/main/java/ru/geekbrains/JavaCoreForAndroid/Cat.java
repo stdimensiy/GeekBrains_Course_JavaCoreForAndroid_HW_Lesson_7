@@ -29,4 +29,16 @@ public class Cat {
     public void jump(double height){
         System.out.println("Кот подпрыгнул на " + height +"м.");
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMaxHeight() {
+        return maxHeight;
+    }
+
+    public int getMaxRun() {
+        return maxRun;
+    }
 }

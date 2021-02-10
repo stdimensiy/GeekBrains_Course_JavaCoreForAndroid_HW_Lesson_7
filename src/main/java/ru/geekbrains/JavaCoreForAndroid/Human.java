@@ -29,4 +29,16 @@ public class Human {
     public void jump(double height){
         System.out.println("Человек подпрыгнул на " + height +"м.");
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMaxHeight() {
+        return maxHeight;
+    }
+
+    public int getMaxRun() {
+        return maxRun;
+    }
 }
